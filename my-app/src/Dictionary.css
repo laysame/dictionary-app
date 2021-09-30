@@ -1,0 +1,20 @@
+.Dictionary {
+    display: block;
+    background-color: palegreen;
+}
+
+.Dictionary .Dictionary-form {
+    height: 40px;
+}
+
+.Dictionary .Dictionary-btn {
+    height: 40px;
+    background-color: #6ea70b;
+    border: 1px solid #6ea70b;
+    color: #fff;
+}
+
+.Dictionary .Dictionary-btn:hover {
+    color: #fff;
+    background-color: #546b33;
+}
