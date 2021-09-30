@@ -1,6 +1,6 @@
 .Dictionary {
     display: block;
-    background-color: palegreen;
+    background-color: black;
 }
 
 .Dictionary .Dictionary-form {
@@ -17,4 +17,5 @@
 .Dictionary .Dictionary-btn:hover {
     color: #fff;
     background-color: #546b33;
+    border: 1px solid #546b33;
 }
