@@ -8,7 +8,7 @@ function App() {
           <img src="./book-logo.png" alt="logo"/>
       </header>
         <main>
-            <Dictionary />
+            <Dictionary defaultKeyword={"sunset"}/>
         </main>
     </div>
   );

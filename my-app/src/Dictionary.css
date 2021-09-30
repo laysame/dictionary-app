@@ -19,3 +19,16 @@
     background-color: #546b33;
     border: 1px solid #546b33;
 }
+
+.Dictionary p {
+    text-align: center;
+}
+
+.Dictionary .Dictionary-card {
+    background-color: black;
+    text-align: left;
+}
+
+.Dictionary .Dictionary-card a {
+    color: #6ea70b;
+}
