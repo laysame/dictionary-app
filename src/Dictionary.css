@@ -1,6 +1,5 @@
 .Dictionary {
     display: block;
-    background-color: black;
 }
 
 .Dictionary .Dictionary-form {
@@ -20,12 +19,12 @@
     border: 1px solid #546b33;
 }
 
-.Dictionary p {
+.Dictionary p .col-12 {
     text-align: center;
 }
 
 .Dictionary .Dictionary-card {
-    background-color: black;
+    background-color: #da3b26;
     text-align: left;
 }
 
