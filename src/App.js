@@ -10,6 +10,7 @@ function App() {
         <main>
             <Dictionary defaultKeyword={"sunset"}/>
         </main>
+        <footer>Coded by Laysa Souza</footer>
     </div>
   );
 }
