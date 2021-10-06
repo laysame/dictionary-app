@@ -29,6 +29,11 @@
     text-align: left;
 }
 
-.Dictionary .Dictionary-card a {
+.Dictionary .Dictionary-body button {
+    background: none;
+    border: none;
+}
+
+.Dictionary .Dictionary-body-icon {
     color: #6ea70b;
 }

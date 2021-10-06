@@ -57,7 +57,7 @@ if (dictionary.ready) {
                     <Card className="Dictionary-card">
                         <Card.Body>
                             <div className="Dictionary-body ms-2">
-                                <h1>{dictionary.word} <a href="#"><FontAwesomeIcon icon={faVolumeUp} /></a></h1>
+                                <h1>{dictionary.word} <button><FontAwesomeIcon className="Dictionary-body-icon" icon={faVolumeUp} /></button></h1>
                                 <h2>{dictionary.text}</h2>
                             </div>
                         </Card.Body>
