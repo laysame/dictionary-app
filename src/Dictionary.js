@@ -1,6 +1,6 @@
 import React, {useState} from "react";
 import axios from "axios";
-import {Button, Col, Form, Row, Card, } from 'react-bootstrap';
+import {Button, Col, Form, Row } from 'react-bootstrap';
 import Loader from "react-loader-spinner";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import "./Dictionary.css";
