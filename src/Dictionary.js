@@ -50,7 +50,7 @@ if (results.ready) {
                 <Col className="col-12">
                     <section className="ms-3">
                         <Form onSubmit={handleSubmit}>
-                            <input type="search" placeholder="Look up for a word..." className="Dictionary-form ms-2 mt-3"
+                            <input type="search" placeholder="Look up for a word..." className="Dictionary-form p-2 ms-2 mt-3"
                                    onChange={changeSubmittedWord}/>
                             <Button type="submit" className="Dictionary-btn p-2 m-2">Search</Button>
                             <p className="Dictionary-words-example ms-2">e.g music, sunset, code...</p>
