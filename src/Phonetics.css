@@ -1,10 +1,17 @@
-
+.Phonetic {
+    margin: 20px 0 ;
+}
 .Phonetic .Phonetic-header {
     display: inline;
-    margin-right: 10px;
+    margin-left: 10px;
 }
 
 .Phonetic .Phonetic-body-icon {
-    color: #6ea70b;
+    color: #ff647f;
     font-size: 25px;
+}
+
+.Phonetic .Phonetic-body-icon:hover {
+    color: #e13b57;
+    font-size: 30px;
 }

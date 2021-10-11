@@ -1,0 +1,14 @@
+.Meaning .Meaning-examples p {
+    font-size: 15px;
+    font-style: italic;
+    opacity: 0.7;
+}
+
+.Meaning .Meaning-definition p {
+    line-height: 1.5;
+    font-weight: bold;
+}
+
+.Meaning .Dictionary-partOfSpeech {
+    text-transform: capitalize;
+}

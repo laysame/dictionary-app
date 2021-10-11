@@ -5,7 +5,7 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-          <img src="./book-logo.png" alt="logo"/>
+         logo
       </header>
         <main>
             <Dictionary defaultKeyword={"sunset"}/>

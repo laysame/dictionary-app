@@ -12,7 +12,6 @@ export default function Dictionary(props) {
     const [results, setResults] = useState({ready: false,});
 
     function handleResponse(response) {
-        console.log(response.data[0])
         setResults({
             ready: true,
             responsePath: response.data[0],
@@ -37,14 +36,16 @@ export default function Dictionary(props) {
 if (results.ready) {
     return (
         <div className="Dictionary">
-            <Row className="align-items-center">
-                <Col className="col-12" xs="auto">
-                    <Form onSubmit={handleSubmit}>
-                        <input type="search" placeholder="Look up for a word..." className="m-2 Dictionary-form"
-                               onChange={changeSubmittedWord}/>
-                        <Button type="submit" className=" m-3 Dictionary-btn">Search</Button>
-                        <p className="ps-0">e.g music, sunset, code...</p>
-                    </Form>
+            <Row>
+                <Col className="col-12">
+                    <section className="ms-3">
+                        <Form onSubmit={handleSubmit}>
+                            <input type="search" placeholder="Look up for a word..." className="Dictionary-form m-2"
+                                   onChange={changeSubmittedWord}/>
+                            <Button type="submit" className="Dictionary-btn p-2 m-2">Search</Button>
+                            <p className="Dictionary-words-example ms-2">e.g music, sunset, code...</p>
+                        </Form>
+                    </section>
                 </Col>
             </Row>
             <Row>
@@ -57,7 +58,7 @@ if (results.ready) {
     return (
         <Loader
             type="TailSpin"
-            color="#546b33"
+            color="#e13b57"
             height={100}
             width={100}
             timeout={6000} 

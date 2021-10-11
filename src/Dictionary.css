@@ -1,29 +1,26 @@
-.Dictionary {
-    display: block;
+.Dictionary .Dictionary-words-example {
+    text-transform: lowercase;
+    font-size: 15px;
 }
 
 .Dictionary .Dictionary-form {
-    height: 40px;
+    height: 50px;
+    width: 50%;
+    border: 1px solid #cbcbe1;
+    border-radius: 4px;
 }
 
 .Dictionary .Dictionary-btn {
-    height: 40px;
-    background-color: #6ea70b;
-    border: 1px solid #6ea70b;
+    height: 50px;
+    width: 80px;
+    background-color: #ff647f;;
+    border: 1px solid #ff647f;;
     color: #fff;
 }
 
 .Dictionary .Dictionary-btn:hover {
     color: #fff;
-    background-color: #546b33;
-    border: 1px solid #546b33;
-}
-
-.Dictionary p .col-12 {
-    text-align: center;
-}
-
-.Dictionary .Dictionary-card {
-    text-align: left;
+    background-color: #e13b57;;
+    border: 1px solid #e13b57;;
 }
 
