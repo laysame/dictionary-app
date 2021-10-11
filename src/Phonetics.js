@@ -13,7 +13,7 @@ export default function Phonetics(props) {
 
     return (
         <div className="Phonetic">
-            <a href={props.phonetic.audio} target="_blank" className="Phonetic-link">
+            <a href={props.phonetic.audio} target="_blank" rel="noreferrer" className="Phonetic-link">
                 <FontAwesomeIcon onClick={playAudio} className="Phonetic-body-icon" icon={faVolumeUp} />
             </a>
             <h4 className="Phonetic-header">{props.phonetic.text}</h4>

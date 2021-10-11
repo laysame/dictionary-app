@@ -4,6 +4,7 @@ import {Card, Col} from "react-bootstrap";
 import {faVolumeUp} from "@fortawesome/free-solid-svg-icons";
 import Meaning from "./Meaning";
 import Phonetics from "./Phonetics";
+import Images from "./Images";
 import "./SearchEngine.css";
 
 library.add(faVolumeUp)
@@ -29,6 +30,9 @@ export default function SearchEngine(props) {
                                 </Card>
                             )
                         })}
+                <Card className="m-3 p-3">
+                    <Images apiData={props.pexelApiData}/>
+                </Card>
             </div>
         </Col>
     )
