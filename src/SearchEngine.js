@@ -10,6 +10,7 @@ import "./SearchEngine.css";
 library.add(faVolumeUp)
 
 export default function SearchEngine(props) {
+
     return (
         <Col className="col-12 mt-3">
             <div className="SearchEngine-body ms-2">
